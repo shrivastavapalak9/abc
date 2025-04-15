@@ -26,7 +26,7 @@ int main()
     result3 = temp3 &~(1<<position);
     printf("After clearing bit operation number is %d\n", result3);
     //To check if a number is set or clear
-    result4 = temp4&(1<<position);
+    result4 = temp4&(1<<position); //or result4 = temp4 >> position & 1;
     if(result4 == 0)
     {
         printf("Bit is clear\n");
