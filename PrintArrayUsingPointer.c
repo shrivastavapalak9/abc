@@ -1,4 +1,4 @@
-//Write a program in C to store n elements in an array and print the elements using a pointer.
+//Write a program in C to store 5 elements in an array and print the elements using a pointer.
 
 #include<stdio.h>
 
